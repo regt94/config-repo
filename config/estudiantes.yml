@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: estudiantes
+
+  # Configuración de MongoDB Atlas para WebFlux
+  data:
+    mongodb:
+      uri: mongodb+srv://usuario:password@cluster0.mongodb.net/estudiantesdb?retryWrites=true&w=majority
+
+  # Puerto en el que se ejecuta el microservicio
+server:
+  port: 8081
+
+# Configuración de Eureka para el registro del servicio
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost

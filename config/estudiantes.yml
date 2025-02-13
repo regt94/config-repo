@@ -5,7 +5,8 @@ spring:
   # Configuración de MongoDB Atlas para WebFlux
   data:
     mongodb:
-      uri: mongodb+srv://usuario:password@cluster0.mongodb.net/estudiantesdb?retryWrites=true&w=majority
+      uri: mongodb+srv://fockio94:PgjFLYVB0lya5uD7@cluster0.zjkoq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: libros
 
   # Puerto en el que se ejecuta el microservicio
 server:

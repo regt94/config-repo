@@ -10,7 +10,7 @@ spring:
 
   # Puerto en el que se ejecuta el microservicio
 server:
-  port: 8082
+  port: 8081
 
 # Configuración de Eureka para el registro del servicio
 eureka:
